@@ -1,0 +1,278 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;700&display=swap');
+*{
+	margin:0;
+	padding:0;
+}
+#wrapper{
+	background: white;
+	width:100%;
+}
+.header{
+	background: #093028;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #237A57, #093028);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #237A57, #093028); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+;
+	width: 100%;
+	height:60px;
+}
+.logo{
+	width:40px;
+	height:20px;
+}
+.logo a p:hover{
+	opacity: 0.8;
+	
+}
+.logo img{
+	width:70px;
+	padding-top: 5px;
+	padding-left: 15px;
+	
+}
+.logo p{
+	width:90px;
+	font-size: 10px;
+	padding-left:15px;
+	align-items: flex-end;
+	color:lightslategrey;
+}
+
+.menu{
+	width:90%;
+	
+}
+.menu ul{
+	display:flex;
+	justify-content:flex-end;
+	align-items: center;
+	height:100%;
+	list-style: none;
+}
+.menu ul li{
+	margin: 0 10px;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: aliceblue;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+.menu ul li a:hover{
+	text-underline-position: below;
+	background: black;
+	background-blend-mode: darken;
+	background-size:contain;
+}
+.main{
+	width:100%;
+	height:550px;
+	background:rgba(39,106,114,1.00);
+}
+.banner{
+	width:100%;
+	height:550px;
+	background: orange;
+	position:relative;
+}
+.banner img{
+	width:100%;
+	height:550px;
+	align-content: center;
+
+	
+}
+.text-box{
+	
+	position:absolute;
+	top:40%;
+	left:27%;
+	text-align: center;
+	text-transform: uppercase;
+	color:white;
+	
+}
+text-box h3{
+	font-weight: 300;
+	letter-spacing: 15px;
+	word-spacing: 10px;
+	
+}
+.text-box h1{
+	margin:20px 0;
+	padding-bottom: 40px;
+	padding-top: 30px
+}
+.text-box a{
+	color:white;
+	padding-top: 10px;
+	background: black;
+	padding: 10px 20px;
+	font-size: 15px;
+	
+	
+}
+.text-box a:hover{
+	color:rgba(155,192,189,1.00);
+}
+.iconarea{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin:0 auto;
+		
+}
+
+.section2{
+	width:100%;
+	height:400px;
+	background: white;
+}
+.section2{
+	text-align: center;
+	padding-top: 40px;
+}
+.icon{
+	height:100%;
+	background: white;
+	display:flex;
+}
+	
+.hotel img{
+	width:200px;
+	padding-right: 30px;
+}
+.hotel h4{
+	margin-left:-30px;
+	font-size:20px;
+}
+.plane img{
+	width:100px;
+	padding-top:50px;
+}
+.plane h4{
+	font-size:20px;
+	padding-top: 50px;
+}
+.plan img{
+	width:140px;
+	padding-top: 30px;
+	padding-left: 50px;
+}
+.plan h4{
+	font-size:20px;
+	padding-left: 50px;
+	padding-top: 30px;
+}
+.ticket img{
+	width:170px;
+	padding-top: 20px;
+	padding-left: 40px;
+}
+.ticket h4{
+	font-size:20px;
+	padding-top: 10px;
+	padding-left: 50px;
+}
+input[type="text"] {
+	width:500px;
+	height:30px;
+	box-sizing: border-box;
+	border: 3px solid black;
+	border-radius: 10px;
+	padding: 12px 14px;
+	
+}
+.form input{
+	padding-top: 30px;
+}
+.section3{
+	width: 100%;
+	height:750px;
+	background: white;
+	align-content: center;
+	justify-content: center;
+}
+.news{
+	display:flex;
+}
+.news img{
+	width:400px;
+	padding-left: 60px;
+}
+.typo{
+	width:400px;
+	text-align: center;
+	padding: 60px 
+}
+.typo p{
+	padding-bottom: 30px;
+}
+.typo a{
+
+	color:white;
+	padding-top: 10px;
+	background: black;
+	padding: 10px 20px;
+	font-size: 15px;
+	
+	
+}
+.news-2{
+	display:flex;
+}
+.news-2 img{
+	width:400px;
+}
+.section5{
+	Width:100%;
+	height:500px;
+	background: white;
+	}
+.section5 h1{
+	text-align: center;
+	padding-bottom: 40px;
+	padding-top: 60px;
+}
+.section5 video{
+	width:100%;
+	height:300px;
+	align-content:center;
+	justify-content: center;
+	
+}
+.section4{
+	width:100%;
+	height:130px;
+	background: black;
+	border-radius: 50px;
+	display:flex;
+}
+.section4 a{
+	margin-top: 40px;
+margin-left: 60px;
+	margin-right: 50px;
+	font-size: 25px;
+	color: white;
+text-decoration: underline;
+	
+}
+.section4 a:hover{
+	color: lightgrey;
+	opacity: 0.8;
+}
+.footer{
+	width:100%;
+	height:200px;
+	color: lightgrey;
+}
+.footer img{
+	width:200px;
+	
+}
+.footer p{
+	width:700px;
+	margin-top: 20px;
+	color:black;
+}
